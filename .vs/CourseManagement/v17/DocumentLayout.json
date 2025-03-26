@@ -1,0 +1,138 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\duong\\Source\\Repos\\CourseManagement\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{32E3ED04-A046-4ADF-A55D-6697A5AB6EDC}|CourseManagement.csproj|c:\\users\\duong\\source\\repos\\coursemanagement\\framework\\router.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32E3ED04-A046-4ADF-A55D-6697A5AB6EDC}|CourseManagement.csproj|solutionrelative:framework\\router.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32E3ED04-A046-4ADF-A55D-6697A5AB6EDC}|CourseManagement.csproj|c:\\users\\duong\\source\\repos\\coursemanagement\\view\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32E3ED04-A046-4ADF-A55D-6697A5AB6EDC}|CourseManagement.csproj|solutionrelative:view\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32E3ED04-A046-4ADF-A55D-6697A5AB6EDC}|CourseManagement.csproj|c:\\users\\duong\\source\\repos\\coursemanagement\\model\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32E3ED04-A046-4ADF-A55D-6697A5AB6EDC}|CourseManagement.csproj|solutionrelative:model\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32E3ED04-A046-4ADF-A55D-6697A5AB6EDC}|CourseManagement.csproj|c:\\users\\duong\\source\\repos\\coursemanagement\\repository\\courserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32E3ED04-A046-4ADF-A55D-6697A5AB6EDC}|CourseManagement.csproj|solutionrelative:repository\\courserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32E3ED04-A046-4ADF-A55D-6697A5AB6EDC}|CourseManagement.csproj|c:\\users\\duong\\source\\repos\\coursemanagement\\coursemanagement.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{32E3ED04-A046-4ADF-A55D-6697A5AB6EDC}|CourseManagement.csproj|solutionrelative:coursemanagement.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32E3ED04-A046-4ADF-A55D-6697A5AB6EDC}|CourseManagement.csproj|c:\\users\\duong\\source\\repos\\coursemanagement\\controller\\coursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32E3ED04-A046-4ADF-A55D-6697A5AB6EDC}|CourseManagement.csproj|solutionrelative:controller\\coursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32E3ED04-A046-4ADF-A55D-6697A5AB6EDC}|CourseManagement.csproj|c:\\users\\duong\\source\\repos\\coursemanagement\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32E3ED04-A046-4ADF-A55D-6697A5AB6EDC}|CourseManagement.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CourseManagement.csproj",
+              "DocumentMoniker": "C:\\Users\\duong\\Source\\Repos\\CourseManagement\\CourseManagement.csproj",
+              "RelativeDocumentMoniker": "CourseManagement.csproj",
+              "ToolTip": "C:\\Users\\duong\\Source\\Repos\\CourseManagement\\CourseManagement.csproj",
+              "RelativeToolTip": "CourseManagement.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-02-14T05:21:15.74Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Menu.cs",
+              "DocumentMoniker": "C:\\Users\\duong\\Source\\Repos\\CourseManagement\\View\\Menu.cs",
+              "RelativeDocumentMoniker": "View\\Menu.cs",
+              "ToolTip": "C:\\Users\\duong\\Source\\Repos\\CourseManagement\\View\\Menu.cs",
+              "RelativeToolTip": "View\\Menu.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAgwIkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-10T06:29:54.825Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Router.cs",
+              "DocumentMoniker": "C:\\Users\\duong\\Source\\Repos\\CourseManagement\\Framework\\Router.cs",
+              "RelativeDocumentMoniker": "Framework\\Router.cs",
+              "ToolTip": "C:\\Users\\duong\\Source\\Repos\\CourseManagement\\Framework\\Router.cs",
+              "RelativeToolTip": "Framework\\Router.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-10T06:25:42.631Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Course.cs",
+              "DocumentMoniker": "C:\\Users\\duong\\Source\\Repos\\CourseManagement\\Model\\Course.cs",
+              "RelativeDocumentMoniker": "Model\\Course.cs",
+              "ToolTip": "C:\\Users\\duong\\Source\\Repos\\CourseManagement\\Model\\Course.cs",
+              "RelativeToolTip": "Model\\Course.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAzwAcAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-10T06:17:03.071Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CourseRepository.cs",
+              "DocumentMoniker": "C:\\Users\\duong\\Source\\Repos\\CourseManagement\\Repository\\CourseRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\CourseRepository.cs",
+              "ToolTip": "C:\\Users\\duong\\Source\\Repos\\CourseManagement\\Repository\\CourseRepository.cs",
+              "RelativeToolTip": "Repository\\CourseRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-10T06:10:17.181Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CourseController.cs",
+              "DocumentMoniker": "C:\\Users\\duong\\Source\\Repos\\CourseManagement\\Controller\\CourseController.cs",
+              "RelativeDocumentMoniker": "Controller\\CourseController.cs",
+              "ToolTip": "C:\\Users\\duong\\Source\\Repos\\CourseManagement\\Controller\\CourseController.cs",
+              "RelativeToolTip": "Controller\\CourseController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-10T06:08:38.039Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\duong\\Source\\Repos\\CourseManagement\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\duong\\Source\\Repos\\CourseManagement\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-10T06:07:06.14Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

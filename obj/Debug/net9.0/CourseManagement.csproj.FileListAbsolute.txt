@@ -1,0 +1,15 @@
+C:\Users\duong\Source\Repos\CourseManagement\bin\Debug\net9.0\CourseManagement.exe
+C:\Users\duong\Source\Repos\CourseManagement\bin\Debug\net9.0\CourseManagement.deps.json
+C:\Users\duong\Source\Repos\CourseManagement\bin\Debug\net9.0\CourseManagement.runtimeconfig.json
+C:\Users\duong\Source\Repos\CourseManagement\bin\Debug\net9.0\CourseManagement.dll
+C:\Users\duong\Source\Repos\CourseManagement\bin\Debug\net9.0\CourseManagement.pdb
+C:\Users\duong\Source\Repos\CourseManagement\obj\Debug\net9.0\CourseManagement.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\duong\Source\Repos\CourseManagement\obj\Debug\net9.0\CourseManagement.AssemblyInfoInputs.cache
+C:\Users\duong\Source\Repos\CourseManagement\obj\Debug\net9.0\CourseManagement.AssemblyInfo.cs
+C:\Users\duong\Source\Repos\CourseManagement\obj\Debug\net9.0\CourseManagement.csproj.CoreCompileInputs.cache
+C:\Users\duong\Source\Repos\CourseManagement\obj\Debug\net9.0\CourseManagement.dll
+C:\Users\duong\Source\Repos\CourseManagement\obj\Debug\net9.0\refint\CourseManagement.dll
+C:\Users\duong\Source\Repos\CourseManagement\obj\Debug\net9.0\CourseManagement.pdb
+C:\Users\duong\Source\Repos\CourseManagement\obj\Debug\net9.0\CourseManagement.genruntimeconfig.cache
+C:\Users\duong\Source\Repos\CourseManagement\obj\Debug\net9.0\ref\CourseManagement.dll
+C:\Users\duong\Source\Repos\CourseManagement\obj\Debug\net9.0\CourseManagement.sourcelink.json

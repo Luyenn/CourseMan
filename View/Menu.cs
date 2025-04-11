@@ -8,18 +8,16 @@ namespace CourseManagement.View
     public class Menu
     {
         private readonly CourseController controller = new();
-
-        // Dictionary chứa route và delegate tương ứng
         private readonly Dictionary<string, Action<Dictionary<string, string>>> Routes;
 
         public Menu()
         {
-            Routes = new Dictionary<string, Action<Dictionary<string, string>>>
+            Routes = new()
             {
-                { "create", _ => CreateCourse() },
-                { "list", _ => DisplayCourses() },
-                { "remove", p => RemoveCourse(p) },
-                { "exit", _ => Exit() }
+                ["create"] = _ => CreateCourse(),
+                ["list"] = _ => DisplayCourses(),
+                ["remove"] = RemoveCourse,
+                ["exit"] = _ => Exit()
             };
         }
 
@@ -29,21 +27,13 @@ namespace CourseManagement.View
 
             while (true)
             {
-                Console.WriteLine("\nCourse Management System");
-                Console.WriteLine("Commands: create, list, remove?id=course_name, exit");
-                Console.Write("Enter command: ");
-
-                string input = Console.ReadLine();
-                var (command, parameters) = ParseCommand(input);
+                Console.Write("\nCourse Management System\nCommands: create, list, remove?id=course_name, exit\nEnter command: ");
+                var (command, parameters) = ParseCommand(Console.ReadLine());
 
                 if (Routes.TryGetValue(command, out var action))
-                {
-                    action(parameters); // Gọi delegate xử lý
-                }
+                    action(parameters);
                 else
-                {
                     Console.WriteLine("Invalid command. Try again.");
-                }
             }
         }
 
@@ -54,16 +44,15 @@ namespace CourseManagement.View
             controller.CreateCourse("Database Management", 3, "Introduction to relational databases and SQL", "Summer 2025");
             controller.CreateCourse("Web Development", 3, "Front-end and back-end web technologies", "Fall 2025");
             controller.CreateCourse("Machine Learning Basics", 3, "Fundamentals of machine learning and AI", "Winter 2025");
-
             Console.WriteLine("Predefined courses have been added!");
         }
 
         private void CreateCourse()
         {
-            string name = Utility.GetInput("Enter course name: ");
-            int credit = int.Parse(Utility.GetInput("Enter course credit: "));
-            string description = Utility.GetInput("Enter course description: ");
-            string semester = Utility.GetInput("Enter semester: ");
+            var name = Utility.GetInput("Enter course name: ");
+            var credit = int.Parse(Utility.GetInput("Enter course credit: "));
+            var description = Utility.GetInput("Enter course description: ");
+            var semester = Utility.GetInput("Enter semester: ");
 
             controller.CreateCourse(name, credit, description, semester);
             Console.WriteLine("Course added successfully!");
@@ -74,30 +63,20 @@ namespace CourseManagement.View
             var courses = controller.GetCourses();
             Console.WriteLine("\nList of Courses:");
             if (courses.Count == 0)
-            {
                 Console.WriteLine("No courses available.");
-            }
             else
-            {
-                foreach (var course in courses)
-                {
-                    Console.WriteLine($"Name: {course.Name}, Credit: {course.Credit}, Description: {course.Description}, Semester: {course.Semester}");
-                }
-            }
+                courses.ForEach(c =>
+                    Console.WriteLine($"Name: {c.Name}, Credit: {c.Credit}, Description: {c.Description}, Semester: {c.Semester}")
+                );
         }
 
         private void RemoveCourse(Dictionary<string, string> parameters)
         {
             if (parameters.TryGetValue("id", out string courseName))
             {
-                if (controller.DeleteCourse(courseName))
-                {
-                    Console.WriteLine($"Course '{courseName}' removed successfully!");
-                }
-                else
-                {
-                    Console.WriteLine("Course not found.");
-                }
+                Console.WriteLine(controller.DeleteCourse(courseName)
+                    ? $"Course '{courseName}' removed successfully!"
+                    : "Course not found.");
             }
             else
             {
@@ -111,27 +90,21 @@ namespace CourseManagement.View
             Environment.Exit(0);
         }
 
-        // Helper method to parse command and parameters
-        private (string command, Dictionary<string, string> parameters) ParseCommand(string input)
+        private (string command, Dictionary<string, string>) ParseCommand(string input)
         {
-            Dictionary<string, string> parameters = new();
-            var parts = input.Split("?", StringSplitOptions.RemoveEmptyEntries);
-            string command = parts[0].ToLower();
+            var parts = input.Split('?', StringSplitOptions.RemoveEmptyEntries);
+            var parameters = new Dictionary<string, string>();
 
             if (parts.Length > 1)
             {
-                var paramPairs = parts[1].Split("&", StringSplitOptions.RemoveEmptyEntries);
-                foreach (var pair in paramPairs)
+                foreach (var pair in parts[1].Split('&'))
                 {
-                    var keyValue = pair.Split("=", StringSplitOptions.RemoveEmptyEntries);
-                    if (keyValue.Length == 2)
-                    {
-                        parameters[keyValue[0]] = keyValue[1];
-                    }
+                    var kv = pair.Split('=', StringSplitOptions.RemoveEmptyEntries);
+                    if (kv.Length == 2) parameters[kv[0]] = kv[1];
                 }
             }
 
-            return (command, parameters);
+            return (parts[0].ToLower(), parameters);
         }
     }
 }
